@@ -1,0 +1,36 @@
+# Site wide configuration
+
+title: Parallel anisotRopic Adaptive Mesh ToolkIt
+description: PRAgMaTIc (Parallel anisotRopic Adaptive Mesh ToolkIt) provides 2D/3D anisotropic mesh adaptivity for meshes of simplexes. The target applications are finite element and finite volume methods although it can also be used as a lossy compression algorithm for 2 and 3D data (e.g. image compression).
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
+locale:
+baseurl: http://meshadaptation.github.io
+production_url : http://meshadaptation.github.io
+
+# Jekyll configuration
+
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: pygments
+gems:
+  - jekyll-sitemap
+
+
+# Site owner
+owner:
+  name: Gerard Gorman
+  email: gerard.j.gorman@gmail.com
+  twitter: gerardjgorman
+  google:
+    ad-client: 
+    ad-slot: 
+  bio: 
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+disqus-shortname: opescigithubio
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
