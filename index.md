@@ -54,6 +54,9 @@ location is /usr/local.
 make install
 ```
 
+# Documentation
+Source code documentation with [Doxygen](doxygen/index.html).
+
 # Mailing list
 You can join the PRAgMaTIc mailing list
 [here](https://mailman.ic.ac.uk/mailman/listinfo/pragmatic). For bug reporting
